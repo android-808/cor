@@ -1,0 +1,6 @@
+
+debian/tmp/usr/lib/pkgconfig/*.pc
+debian/tmp/usr/include/cor/*.h
+debian/tmp/usr/include/cor/*.hpp
+debian/tmp/usr/include/cor/udev/*.hpp
+debian/tmp/usr/lib/cmake/cor/*

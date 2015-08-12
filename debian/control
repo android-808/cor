@@ -1,0 +1,26 @@
+Source: cor
+Maintainer: Robert Irvin <android_808@hotmail.com>
+Section: libs
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), cmake (>=2.8), tut (>=0.0.1), libudev-dev
+
+Package: cor
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}
+Description: Just another C++/C library
+ Just another C++/C library. Contains useful utilities which are not a
+ part of any other library :)
+
+Package: cor-dev
+Architecture: any
+Section: libs
+Depends: cor (= ${Source-Version}), ${shlibs:Depends}
+Description: cor library header files etc.
+
+Package: cor-tests
+Architecture: any
+Section: misc
+Depends: cor (= ${Source-Version}), ${shlibs:Depends}
+Description: cor library test suite.
